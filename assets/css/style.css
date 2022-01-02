@@ -1,0 +1,121 @@
+/* google fonts
+font-family: 'Cinzel', serif;
+font-family: 'Poppins', sans-serif; 
+*/
+/*
+Font: Cinzel, poppins.
+border: #ccc.
+color logo: #999.
+color home: #fff.
+color: #333 
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins:wght@100;300;400&display=swap');
+
+body{
+    box-sizing: border-box;
+}
+/********************Header*********************/
+header p{
+    color: #999;
+    font-family: 'Cinzel', serif;
+    text-indent: 40px;
+}
+header section{
+    width: 100vw;
+    background: no-repeat url(../img/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+header section div{
+    width: 50vw;
+    margin: 0 auto;
+    padding-top: 45vh;
+}
+/**************Text Format*************/
+h1{
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    text-align: center;
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 300;
+    color: #333 
+}
+p{
+    font-family: 'Poppins', sans-serif; 
+    color: #333;
+    font-size: .8rem; 
+}
+section p{
+    text-align: center;
+}
+main{ 
+    margin: 0;
+    padding: 3rem; 
+}
+main section{
+    width: 90vw; 
+    margin: 0 auto; 
+}
+/**** Photo Gallery *****/
+img{
+    width: 25%;
+    padding: 50px; 
+}
+
+img:nth-of-type(1){
+    padding-left: 0;
+}
+img:nth-of-type(4){
+    padding-left: 0;
+} 
+
+/********** Tour Dates ******/
+article p{
+    text-align: left;
+}
+article span{
+    color: red;
+}
+article p:nth-of-type(5) span{
+    color: green;
+}
+article p:nth-of-type(6) span{
+    color: green;
+}
+/*********** Footer *********/
+footer{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    
+}
+footer ul{
+    width: 33.33%;
+    list-style: none;
+    margin:0 auto;
+    
+}
+ul li {
+    
+    display: inline;
+    font-family: 'Poppins', sans-serif; 
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0 2rem;
+}
+footer a{
+    text-decoration: none;
+    color: #333;
+}
+footer a:hover{
+    color: #999;
+    text-decoration: underline;
+}
+

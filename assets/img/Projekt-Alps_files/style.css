@@ -1,0 +1,79 @@
+/* google fonts
+font-family: 'Cinzel', serif;
+font-family: 'Poppins', sans-serif; 
+*/
+/*
+Font: Cinzel, poppins.
+border: #ccc.
+color logo: #999.
+color home: #fff.
+color: #333 
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins:wght@100;300;400&display=swap');
+
+body{
+    box-sizing: border-box;
+}
+
+header p{
+    color: #ccc;
+    font-family: 'Cinzel', serif;
+    text-indent: 40px;
+}
+header section{
+    width: 100vw;
+    background: no-repeat url(../img/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+   
+}
+h1{
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    text-align: center;
+
+}
+h3{
+    text-transform: capitalize;
+}
+section>div{
+    height: 45vh;
+    width: 45vw;
+    margin: 0 auto;
+    padding: 20%;
+    /* top: 50%;
+    position: relative; */
+}
+main{
+    
+}
+main section:nth-of-type(1){
+    height: 30vh;
+    background-color: orange; 
+    text-align: center;
+    /* margin: 0 auto; */
+    padding: .5em;
+}
+main section:nth-of-type(1) p{
+    padding: 0 5px;
+}
+main section:nth-of-type(2){
+    background-color: orangered;
+}
+img{
+    max-width: 30%;
+    margin: 10px 10px 0 10px;
+}
+main section:nth-of-type(3){
+    background-color: orchid;
+}
+footer{
+    color: #ccc;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    border-top: 2px solid #333;
+    background-color: palegoldenrod;
+}
